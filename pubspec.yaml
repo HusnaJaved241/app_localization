@@ -1,0 +1,23 @@
+name: localization_arb_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_gen: ^4.1.5
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  provider: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
